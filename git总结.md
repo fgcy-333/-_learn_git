@@ -1842,7 +1842,7 @@ $ git remote -v
 
 
 
-仓库改名
+## 仓库改名
 
 ---
 
@@ -1856,7 +1856,7 @@ $ git remote -v
 
 
 
-推送
+## 推送
 
 > git push [别名] [分支名]
 
@@ -1914,7 +1914,33 @@ To https://github.com/fgcy-333/-_learn_git.git
 
 
 
-克隆
+
+
+输入一次账号密码后，就不用再输入；
+
+因为window会记住密码；
+
+如果要在同一台机器上切换账号需要先删除凭证；
+
+---
+
+![image-20220618191003778](http://fgcy-pic.zhamao.ml/image-20220618191003778.png)
+
+---
+
+
+
+---
+
+![image-20220618191026444](http://fgcy-pic.zhamao.ml/image-20220618191026444.png)
+
+---
+
+
+
+
+
+## 克隆
 
 > git origin [远程地址]
 
@@ -1970,60 +1996,126 @@ drwxr-xr-x 1 fgcy 197121         0 Jan 17 10:35 课件/
 
 
 
+## 团队成员邀请
 
 
 
+----
 
+![image-20220618190610280](http://fgcy-pic.zhamao.ml/image-20220618190610280.png)
 
+---
 
 
 
+---
 
+![image-20220618190714279](http://fgcy-pic.zhamao.ml/image-20220618190714279.png)
 
+---
 
 
 
 
 
+## 拉取
 
+> pull=fetch+merge
 
 
 
+> git fetch [远程库地址别名] [远程分支名]        拉取远程分支内容
 
 
 
+~~~shell
+$ git fetch origin master
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 7 (delta 1), reused 7 (delta 1), pack-reused 0
+Unpacking objects: 100% (7/7), 10.13 KiB | 864.00 KiB/s, done.
+From https://github.com/fgcy-333/note_learn_git
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
 
+~~~
 
 
 
 
 
+远程仓库中的内容：
 
+---
 
+![image-20220618191821586](http://fgcy-pic.zhamao.ml/image-20220618191821586.png)
 
+---
 
 
 
+拉取后，工作区中的目录结构：
 
+~~~shell
+fgcy@fgcy MINGW64 /d/learn/尚硅谷/Git&github学习资料 (master)
+$ ll
+total 13491
+-rw-r--r-- 1 fgcy 197121 3978870 Jan 17 11:25 'Git&GitHub.bmp'
+-rw-r--r-- 1 fgcy 197121 3583371 Jan 17 11:25 'Git&GitHub.pdf'
+-rw-r--r-- 1 fgcy 197121     117 Jun 18 14:20  aaa.txt
+-rw-r--r-- 1 fgcy 197121     134 Jun 18 13:43  apple.txt
+drwxr-xr-x 1 fgcy 197121       0 Jun 18 18:50  git总结.assets/
+-rw-r--r-- 1 fgcy 197121   40530 Jun 18 18:55  git总结.md
+-rw-r--r-- 1 fgcy 197121 6182824 Jun 18 11:28  note_for_git.docx
+-rw-r--r-- 1 fgcy 197121     162 Jun 18 11:29 '~$te_for_git.docx'
+~~~
 
 
 
+想要访问拉取下来的内容想要切换到origin/master分支
 
+~~~shell
+$ git checkout origin/master
 
+$ ll
+total 13489
+-rw-r--r-- 1 fgcy 197121 3978870 Jan 17 11:25 'Git&GitHub.bmp'
+-rw-r--r-- 1 fgcy 197121 3583371 Jan 17 11:25 'Git&GitHub.pdf'
+drwxr-xr-x 1 fgcy 197121       0 Jun 18 18:50  git总结.assets/
+-rw-r--r-- 1 fgcy 197121   40530 Jun 18 19:21  git总结.md                #这个是github上的
+-rw-r--r-- 1 fgcy 197121 6182824 Jun 18 11:28  note_for_git.docx		#这个是github上的
+-rw-r--r-- 1 fgcy 197121     162 Jun 18 11:29 '~$te_for_git.docx'
 
 
+~~~
 
 
 
+> **git merge [远程库地址别名/远程分支名]**     合并远程分支
 
+切换到master分支上
 
+~~~shell
+$ git merge origin/master
+Updating d18042e..55f92f6
+Fast-forward
+ aaa.txt                          |    5 -
+ apple.txt                        |    6 -
+ "git\346\200\273\347\273\223.md" | 2088 ++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 2088 insertions(+), 11 deletions(-)
+ delete mode 100644 aaa.txt
+ delete mode 100644 apple.txt
+ create mode 100644 "git\346\200\273\347\273\223.md"
 
 
+~~~
 
 
 
 
 
+> git pull [远程库地址别名] [远程分支名]
 
 
 
@@ -2031,6 +2123,8 @@ drwxr-xr-x 1 fgcy 197121         0 Jan 17 10:35 课件/
 
 
 
+要点
+如果不是基于 GitHub 远程库的最新版所做的修改，不能推送，必须先拉取最新版本
 
 
 
@@ -2038,45 +2132,85 @@ drwxr-xr-x 1 fgcy 197121         0 Jan 17 10:35 课件/
 
 
 
+## 跨团队协作
 
 
 
+fork
 
+---
 
+![image-20220618194217405](http://fgcy-pic.zhamao.ml/image-20220618194217405.png)
 
+---
 
 
 
 
 
+---
 
+![image-20220618194251531](http://fgcy-pic.zhamao.ml/image-20220618194251531.png)
 
+---
 
 
 
 
 
+修改完成后发送推送请求
 
+---
 
+![image-20220618194553116](http://fgcy-pic.zhamao.ml/image-20220618194553116.png)
 
+---
 
 
 
+---
 
+![image-20220618194619302](http://fgcy-pic.zhamao.ml/image-20220618194619302.png)
 
+---
 
 
 
 
 
+对话
 
+---
 
+![image-20220618194832140](http://fgcy-pic.zhamao.ml/image-20220618194832140.png)
 
+---
 
 
 
+---
 
+![image-20220618194854012](http://fgcy-pic.zhamao.ml/image-20220618194854012.png)
 
+---
+
+
+
+---
+
+![image-20220618194926693](http://fgcy-pic.zhamao.ml/image-20220618194926693.png)
+
+---
+
+
+
+审核代码
+
+---
+
+![image-20220618194956371](http://fgcy-pic.zhamao.ml/image-20220618194956371.png)
+
+---
 
 
 
@@ -2085,4 +2219,191 @@ drwxr-xr-x 1 fgcy 197121         0 Jan 17 10:35 课件/
 
 
 
+
+代码合并
+
+---
+
+![image-20220618195120221](http://fgcy-pic.zhamao.ml/image-20220618195120221.png)
+
+---
+
+
+
+最后将远程库修改拉取到本地
+
+
+
+
+
+## SSH 登录
+
+
+
+ 进入当前用户的家目录
+
+>  cd ~
+
+
+
+ 删除.ssh 目录
+
+>  rm -rvf .ssh
+
+
+
+运行命令生成.ssh 密钥目录
+
+> ssh-keygen -t rsa -C [登录github的邮箱]          [注意：这里C这个参数是大写的C]
+
+~~~shell
+$ cd ~
+
+fgcy@fgcy MINGW64 ~
+$ rm -rvf .ssh
+removed '.ssh/known_hosts'
+removed directory '.ssh'
+
+fgcy@fgcy MINGW64 ~
+$ ssh-keygen -t rsa -C zwj1061499050@126.com
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/fgcy/.ssh/id_rsa):
+Created directory '/c/Users/fgcy/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/fgcy/.ssh/id_rsa
+Your public key has been saved in /c/Users/fgcy/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:C/awNz8LrJpK6Rtk25kBGOBBae09h9A0QZB/ZhHsIWg zwj1061499050@126.com
+The key's randomart image is:
++---[RSA 3072]----+
+|=oo.B=o..        |
+|.=.E o.+         |
+|o.+ + + o        |
+|   o = *         |
+|  o . X S        |
+| o + = * .       |
+|  = + . B        |
+| o . . o +.      |
+|  +oo..   oo     |
++----[SHA256]-----+
+
+~~~
+
+
+
+
+
+
+
+ 进入.ssh 目录查看文件列表
+
+> cd .ssh
+>
+>  ls -lF
+
+
+
+查看 id_rsa.pub 文件内容
+
+>   cat id_rsa.pub
+
+
+
+~~~shell
+$ cd .ssh/
+
+fgcy@fgcy MINGW64 ~/.ssh
+$ ll
+total 5
+-rw-r--r-- 1 fgcy 197121 2610 Jun 18 19:59 id_rsa
+-rw-r--r-- 1 fgcy 197121  575 Jun 18 19:59 id_rsa.pub
+
+fgcy@fgcy MINGW64 ~/.ssh
+$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADbBmKS71IyBDR14ybEFMNQfK48yr9MAFKf1dnA60TF39U2b2WDvsQkqmSQ1IWbSkMfxHSscmPxlMfDPDj5zW1jeU0nQpdsHGJ77HQgfjMOiOjJCdnsrjfN+8k= zwj1061499050@126.com
+
+
+~~~
+
+
+
+ 复制 id_rsa.pub 文件内容，登录 GitHub，点击用户头像→Settings→SSH and GPG keys
+
+----
+
+![image-20220618200430035](http://fgcy-pic.zhamao.ml/image-20220618200430035.png)
+
+----
+
+
+
+ New SSH Key
+
+---
+
+![image-20220618200519617](http://fgcy-pic.zhamao.ml/image-20220618200519617.png)
+
+---
+
+
+
+输入复制的密钥信息
+
+
+
+回到 Git bash 创建远程地址别名
+
+---
+
+![image-20220618201141298](http://fgcy-pic.zhamao.ml/image-20220618201141298.png)
+
+---
+
+
+
+~~~shell
+$ git remote add origin_ssh git@github.com:fgcy-333/note_learn_git.git
+
+fgcy@fgcy MINGW64 /d/learn/尚硅谷/Git&github学习资料 (master)
+$ git remote -v
+origin  https://github.com/fgcy-333/note_learn_git.git (fetch)
+origin  https://github.com/fgcy-333/note_learn_git.git (push)
+origin_ssh      git@github.com:fgcy-333/note_learn_git.git (fetch)
+origin_ssh      git@github.com:fgcy-333/note_learn_git.git (push)
+
+~~~
+
+ 推送文件
+
+> git push origin_ssh master
+
+
+
+报错：
+
+~~~shell
+$ git push origin_ssh master
+ssh: connect to host github.com port 22: Connection refused
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+~~~
+
+
+
+解决：
+
+1、首先到 ipaddress 输入 github.com 查找到其IP地址
+
+---
+
+![image-20220618202537557](http://fgcy-pic.zhamao.ml/image-20220618202537557.png)
+
+---
+
+2、将查到的IP地址和网址映射放到你的本地 hosts 文件中即可，例子：140.82.112.3 github.com
+3、 windows 下 host 默认地址： C:\Windows\System32\drivers\etc
 
