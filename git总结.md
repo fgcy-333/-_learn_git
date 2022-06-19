@@ -736,9 +736,69 @@ $ git commit -m "note_for_git.doc second commit" note_for_git.docx
 
 
 
+## Git 添加多个文件到暂存区
+
+方法一：
+
+> git add file1 file2 file3 file 4
 
 
 
+方法二：
+
+> git add file1
+>
+> git add file2
+>
+> git add file3
+
+
+
+方法三：
+
+添加指定目录下的文件config目录下及子目录下所有文件,
+
+> git add config/*
+
+
+
+home目录下的所有.php文件
+
+> git add home/*.php
+
+
+
+方法四：
+
+添加所有文件
+
+> git add .
+
+> git add --all
+
+
+
+方法五：
+
+添加文件夹
+
+> git add 文件夹名字
+
+
+
+## Git 提交多个文件到版本库
+
+方法一：
+
+> git commit file1 file2 file3 -m "comment"
+
+
+
+方法二：
+
+提交所有在暂存区中的文件
+
+> git commit -m "comment"
 
 
 
