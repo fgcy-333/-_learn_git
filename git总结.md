@@ -259,6 +259,18 @@ Git、Mercurial、Bazaar、Darcs
 
 
 
+# 解决Git中文乱码问题
+
+
+
+~~~shell
+git config --global core.quotepath false
+git config --global i18n.commit.encoding utf-8
+git config --global i18n.logoutputencoding utf-8
+export LESSCHARSET=utf-8
+
+~~~
+
 
 
 
@@ -1987,7 +1999,8 @@ drwxr-xr-x 1 fgcy 197121         0 Jan 17 10:35 课件/
 
 
 
-克隆远程库有三个效果
+## 克隆远程库有三个效果
+
 1、完整的把远程库下载到本地
 2、创建 origin 远程地址别名
 3、初始化本地库
@@ -2406,4 +2419,954 @@ and the repository exists.
 
 2、将查到的IP地址和网址映射放到你的本地 hosts 文件中即可，例子：140.82.112.3 github.com
 3、 windows 下 host 默认地址： C:\Windows\System32\drivers\etc
+
+
+
+# IDEA 集成 Git
+
+
+
+## 配置 Git 忽略文件 
+
+
+
+IDEA 特定文件 
+
+1、.idea
+
+2、xxx.iml
+
+【这些文件与集成开发工具相关；与项目无关】
+
+---
+
+![image-20220619103341111](http://fgcy-pic.zhamao.ml/image-20220619103341111.png)
+
+---
+
+3、Maven 工程的 target 目录 
+
+
+
+
+
+问题 1:为什么要忽略他们？ 
+答：与项目的实际功能无关，不参与服务器上部署运行。把它们忽略掉能够屏蔽 IDE 工具之
+间的差异
+
+
+
+
+
+问题 2：怎么忽略？ 
+1）创建忽略规则文件 xxxx.ignore（前缀名随便起，建议是 git.ignore） 
+这个文件的存放位置原则上在哪里都可以，为了便于让~/.gitconfig 文件引用，建议也放在用
+户家目录下
+
+
+
+1、定位到git的家目录
+
+2、创建一个名为 git.ignore的文件
+
+---
+
+![image-20220619104230553](http://fgcy-pic.zhamao.ml/image-20220619104230553.png)
+
+---
+
+3、编写git.ignore文件
+
+~~~txt
+# Compiled class file 
+*.class 
+ 
+# Log file 
+*.log 
+ 
+# BlueJ files 
+*.ctxt 
+ 
+# Mobile Tools for Java (J2ME) 
+.mtj.tmp/ 
+ 
+# Package Files # 
+*.jar 
+*.war 
+*.nar 
+*.ear 
+*.zip 
+*.tar.gz 
+*.rar 
+ 
+# virtual machine crash logs, 
+hs_err_pid* 
+ 
+.classpath 
+.project 
+.settings 
+target 
+.idea 
+*.iml 
+
+~~~
+
+4、在.gitconfig 文件中引用忽略配置文件（此文件在 Windows 的家目录中）
+
+
+
+---
+
+![image-20220619104436822](http://fgcy-pic.zhamao.ml/image-20220619104436822.png)
+
+---
+
+5、配置[core] excludefile
+
+~~~txt
+[user]
+	name = fgcy
+	email = fgcy@2000.com
+[credential "https://gitee.com"]
+	provider = generic
+[http]
+	sslVerify = false
+[core] 
+ excludesfile = C:/Users/fgcy/git.ignore 
+~~~
+
+注意：这里要使用“正斜线（/）”，不要使用“反斜线（\）”
+
+
+
+## 在IDEA中定位Git程序
+
+> Ctrl+Alt+S 进入设置
+
+---
+
+![image-20220619105123296](http://fgcy-pic.zhamao.ml/image-20220619105123296.png)
+
+---
+
+
+
+## 初始化本地库 
+
+VCS【version controller setting】
+
+---
+
+![image-20220619105642818](http://fgcy-pic.zhamao.ml/image-20220619105642818.png)
+
+---
+
+
+
+---
+
+![image-20220619105821983](http://fgcy-pic.zhamao.ml/image-20220619105821983.png)
+
+---
+
+
+
+初始化完成
+
+---
+
+![image-20220619105935434](http://fgcy-pic.zhamao.ml/image-20220619105935434.png)
+
+---
+
+
+
+## 清除初始化本地库
+
+---
+
+![image-20220619110059831](http://fgcy-pic.zhamao.ml/image-20220619110059831.png)
+
+---
+
+
+
+
+
+
+
+## 添加到暂存区 
+
+右键点击项目选择 Git -> Add 将项目添加到暂存区
+
+
+
+以单个文件为例
+
+---
+
+![image-20220619110340947](http://fgcy-pic.zhamao.ml/image-20220619110340947.png)
+
+---
+
+
+
+---
+
+![image-20220619110540783](http://fgcy-pic.zhamao.ml/image-20220619110540783.png)
+
+---
+
+
+
+
+
+---
+
+![image-20220619110433027](http://fgcy-pic.zhamao.ml/image-20220619110433027.png)
+
+---
+
+
+
+
+
+
+
+## 提交到本地库
+
+
+
+---
+
+![image-20220619110644105](http://fgcy-pic.zhamao.ml/image-20220619110644105.png)
+
+---
+
+
+
+---
+
+![image-20220619110751030](http://fgcy-pic.zhamao.ml/image-20220619110751030.png)
+
+---
+
+
+
+
+
+整个项目添加到暂存区
+
+---
+
+![image-20220619110913769](http://fgcy-pic.zhamao.ml/image-20220619110913769.png)
+
+---
+
+
+
+
+
+整个项目提交到本地库
+
+---
+
+![image-20220619111256602](http://fgcy-pic.zhamao.ml/image-20220619111256602.png)
+
+---
+
+
+
+
+
+
+
+## 颜色
+
+
+
+红色 : 未被追踪 【必须先添加到暂存区，再添加到本地库】
+
+绿色 ：已经添加到暂存区【直接添加到本地库】
+
+黑色 ：已经提交到版本库【无需做变更】
+
+蓝色 ：被追踪过了，但修改了【既可以先添加到暂存区，再添加到本地库；又可以直接添加到本地库】
+
+
+
+
+
+
+
+## 切换版本 
+
+
+
+---
+
+![image-20220619131522652](http://fgcy-pic.zhamao.ml/image-20220619131522652.png)
+
+---
+
+
+
+---
+
+![image-20220619131624427](http://fgcy-pic.zhamao.ml/image-20220619131624427.png)
+
+---
+
+
+
+
+
+## 创建分支
+
+1、方式一：
+
+---
+
+![image-20220619132157613](http://fgcy-pic.zhamao.ml/image-20220619132157613.png)
+
+---
+
+
+
+
+
+方式二：
+
+---
+
+![image-20220619132251885](http://fgcy-pic.zhamao.ml/image-20220619132251885.png)
+
+---
+
+
+
+
+
+## 分支切换
+
+---
+
+![image-20220619132441716](http://fgcy-pic.zhamao.ml/image-20220619132441716.png)
+
+---
+
+
+
+
+
+
+
+## 合并分支
+
+
+
+---
+
+![image-20220619133104743](http://fgcy-pic.zhamao.ml/image-20220619133104743.png)
+
+---
+
+
+
+
+
+---
+
+![image-20220619133252485](http://fgcy-pic.zhamao.ml/image-20220619133252485.png)
+
+---
+
+
+
+## 代码冲突
+
+
+
+---
+
+![image-20220619133649038](http://fgcy-pic.zhamao.ml/image-20220619133649038.png)
+
+---
+
+
+
+
+
+---
+
+![image-20220619134617699](http://fgcy-pic.zhamao.ml/image-20220619134617699.png)
+
+---
+
+
+
+
+
+# IDEA集成Github
+
+
+
+
+
+
+
+
+
+---
+
+![image-20220619135248264](http://fgcy-pic.zhamao.ml/image-20220619135248264.png)
+
+---
+
+
+
+
+
+问题描述:
+
+We were unable to authorize you in GitHub. Sorry for inconvenience, please try again later.
+我们无法在GitHub中授权您。很抱歉给您带来不便，请稍后再试。
+(We were unable to authorize you in GitHub. Sorry for inconvenience, please try again later.我们无法在GitHub中授权您。很抱歉给您带来不便，请稍后再试。)
+
+
+
+解决：
+
+---
+
+![image-20220618213500715](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220618213500715.png)
+
+---
+
+
+
+
+
+---
+
+![image-20220618213550267](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220618213550267.png)
+
+---
+
+
+
+
+
+
+
+---
+
+![image-20220618213649750](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220618213649750.png)
+
+---
+
+
+
+
+
+---
+
+![image-20220618213748289](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220618213748289.png)
+
+---
+
+
+
+## 分享项目到Github
+
+---
+
+![image-20220619135820436](http://fgcy-pic.zhamao.ml/image-20220619135820436.png)
+
+---
+
+
+
+
+
+---
+
+![image-20220619140008604](http://fgcy-pic.zhamao.ml/image-20220619140008604.png)
+
+---
+
+
+
+
+
+
+
+## 使用SSH连接push项目
+
+
+
+- 添加 remote
+
+---
+
+![image-20220619140808879](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220619140808879.png)
+
+---
+
+
+
+---
+
+![image-20220619141222874](http://fgcy-pic.zhamao.ml/image-20220619141222874.png)
+
+---
+
+
+
+
+
+
+
+---
+
+![image-20220619141152318](http://fgcy-pic.zhamao.ml/image-20220619141152318.png)
+
+---
+
+
+
+
+
+---
+
+![image-20220619141422693](http://fgcy-pic.zhamao.ml/image-20220619141422693.png)
+
+---
+
+
+
+注意：push 是将本地库代码推送到远程库，如果本地库代码跟远程库代码版本不一致，
+push 的操作是会被拒绝的。也就是说，要想 push 成功，一定要保证本地库的版本要比远程
+库的版本高！因此一个成熟的程序员在动手改本地代码之前，一定会先检查下远程库跟本地
+代码的区别！如果本地的代码版本已经落后
+
+切记：
+
+**要先 pull 拉取一下远程库的代码，将本地代码更新到最新以后，然后再修改，提交，推送！** 
+
+
+
+
+
+## 拉取代码合并本地库
+
+
+
+1、在github上修改代码
+
+---
+
+![image-20220619141803723](http://fgcy-pic.zhamao.ml/image-20220619141803723.png)
+
+---
+
+
+
+---
+
+![image-20220619141929709](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220619141929709.png)
+
+---
+
+
+
+
+
+
+
+拉取
+
+---
+
+![image-20220619152924984](http://fgcy-pic.zhamao.ml/image-20220619152924984.png)
+
+---
+
+
+
+
+
+---
+
+![image-20220619153256127](http://fgcy-pic.zhamao.ml/image-20220619153256127.png)
+
+---
+
+
+
+发生冲突后，手动解决
+
+
+
+## 克隆代码到本地
+
+
+
+
+
+
+
+----
+
+![image-20220619154027885](http://fgcy-pic.zhamao.ml/image-20220619154027885.png)
+
+---
+
+
+
+
+
+---
+
+![image-20220619154139179](http://fgcy-pic.zhamao.ml/image-20220619154139179.png)
+
+---
+
+注意：该目录必须没有任何文件；即空目录
+
+
+
+
+
+三个效果：
+
+1、将完整的项目和版本下载下来
+
+2、给远程库地址起了别名
+
+~~~shell
+$ git remote -v
+origin  https://github.com/fgcy-333/lab27.git (fetch)
+origin  https://github.com/fgcy-333/lab27.git (push)
+
+~~~
+
+3、初始化了本地库
+
+~~~shell
+$ ls -la
+total 36
+drwxr-xr-x 1 fgcy 197121     0 Jun 19 15:44 ./
+drwxr-xr-x 1 fgcy 197121     0 Jun 19 15:44 ../
+drwxr-xr-x 1 fgcy 197121     0 Jun 19 15:44 .git/              #初始化了本地库
+drwxr-xr-x 1 fgcy 197121     0 Jun 19 15:46 .idea/
+-rw-r--r-- 1 fgcy 197121 14225 Jun 19 15:44 lab27.iml
+-rw-r--r-- 1 fgcy 197121  2637 Jun 19 15:44 pom.xml
+drwxr-xr-x 1 fgcy 197121     0 Jun 19 15:44 src/
+
+~~~
+
+
+
+
+
+
+
+# IDEA集成Gitee
+
+
+
+## 步骤
+
+
+
+1、在IDEA中下载插件
+
+---
+
+![image-20220619161928404](http://fgcy-pic.zhamao.ml/image-20220619161928404.png)
+
+---
+
+
+
+2、重启IDEA
+
+3、添加账号
+
+---
+
+![image-20220619162112699](http://fgcy-pic.zhamao.ml/image-20220619162112699.png)
+
+___
+
+
+
+
+
+## 分享本地项目到gitee上
+
+
+
+方法一：
+
+---
+
+![image-20220619162438238](http://fgcy-pic.zhamao.ml/image-20220619162438238.png)
+
+---
+
+
+
+
+
+错误：
+
+IDEA集成Gitee后push项目到Gitee卡在Loading Account Information For gitee.com 不动
+
+
+
+---
+
+![image-20220619162531106](http://fgcy-pic.zhamao.ml/image-20220619162531106.png)
+
+---
+
+
+
+原因：
+
+你当前的Gitee账户下没有一个自建的仓库，导致信息验证失败，一直卡在验证信息阶段！
+
+
+
+解决方案：
+        随便在你的Gitee账号中创建一个仓库，然后再试一下    
+
+
+
+注意：
+
+随意创建的仓库不要与你使用IDEA上传的仓库同名。然后再尝试push，push完成之后可以删除随意创建的仓库，此后就无需再创建仓库
+
+
+
+
+
+方法二：
+
+
+
+1、在码云中新建一个仓库 【获取远程库地址】
+
+----
+
+![image-20220619163734469](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220619163734469.png)
+
+---
+
+
+
+2、为gitee的远程库地址器别名
+
+---
+
+![image-20220619163850330](http://fgcy-pic.zhamao.ml/image-20220619163850330.png)
+
+---
+
+注：origin 是GitHub中远程库的别名
+
+
+
+3、将别名与远程库地址绑定
+
+---
+
+![image-20220619164103538](http://fgcy-pic.zhamao.ml/image-20220619164103538.png)
+
+---
+
+
+
+4、选择别名为gitee-blog的经行推送
+
+---
+
+![image-20220619164214338](http://fgcy-pic.zhamao.ml/image-20220619164214338.png)
+
+---
+
+
+
+
+
+## 拉取项目
+
+---
+
+![image-20220619164530673](http://fgcy-pic.zhamao.ml/image-20220619164530673.png)
+
+---
+
+
+
+---
+
+![image-20220619164558016](http://fgcy-pic.zhamao.ml/image-20220619164558016.png)
+
+---
+
+
+
+
+
+# 码云复制Github
+
+
+
+1、复制某个gihub仓库的https路径
+
+---
+
+![image-20220619165432198](http://fgcy-pic.zhamao.ml/image-20220619165432198.png)
+
+---
+
+
+
+2、在码云中新建一个项目，选择导入已有项目
+
+---
+
+![image-20220619165555943](http://fgcy-pic.zhamao.ml/image-20220619165555943.png)
+
+---
+
+
+
+
+
+3、复制github中的远程库地址连接，初始化信息
+
+---
+
+![image-20220619170041952](http://fgcy-pic.zhamao.ml/image-20220619170041952.png)
+
+---
+
+
+
+4、完成
+
+---
+
+![image-20220619170203013](http://fgcy-pic.zhamao.ml/image-20220619170203013.png)
+
+---
+
+
+
+tip：
+
+---
+
+![image-20220619170327444](http://fgcy-pic.zhamao.ml/image-20220619170327444.png)
+
+---
+
+
+
+
+
+
+
+# IDEA集成GitLab
+
+1、安装Gitlab插件
+
+---
+
+![image-20220619171505184](http://fgcy-pic.zhamao.ml/image-20220619171505184.png)
+
+---
+
+
+
+2、设置 GitLab 插件 
+
+---
+
+![image-20220619171538115](http://fgcy-pic.zhamao.ml/image-20220619171538115.png)
+
+---
+
+
+
+---
+
+![image-20220619171606936](http://fgcy-pic.zhamao.ml/image-20220619171606936.png)
+
+---
+
+此界面说明成功
+
+---
+
+![image-20220619171631815](http://fgcy-pic.zhamao.ml/image-20220619171631815.png)
+
+---
+
+
+
+
+
+3、自定义远程库连接
+
+---
+
+![image-20220619171750591](http://fgcy-pic.zhamao.ml/image-20220619171750591.png)
+
+---
+
+
+
+注意：gitlab 网页上复制过来的连接是
+
+> http://gitlab.example.com/root/git-test.git，
+
+ 
+
+需要手动修改为
+
+>  http://gitlab-server/root/git-test.git 
+
+
+
+
+
+4、选择 gitlab 远程连接，进行 push
+
+---
+
+![image-20220619172221231](http://fgcy-pic.zhamao.ml/image-20220619172221231.png)
+
+---
+
+
+
+注意：
+
+首次向连接 gitlab，需要登录帐号和密码，用 root 帐号和我们修改的密码登录即可
+
+---
+
+![image-20220619172302127](http://fgcy-pic.zhamao.ml/image-20220619172302127.png)
+
+---
+
+
+
+只要 GitLab 的远程库连接定义好以后，对 GitLab 远程库进行 pull 和 clone 的操作和
+Github 和码云一致，此处不再赘述
 
