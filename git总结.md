@@ -2893,7 +2893,7 @@ VCS【version controller setting】
 
 We were unable to authorize you in GitHub. Sorry for inconvenience, please try again later.
 我们无法在GitHub中授权您。很抱歉给您带来不便，请稍后再试。
-(We were unable to authorize you in GitHub. Sorry for inconvenience, please try again later.我们无法在GitHub中授权您。很抱歉给您带来不便，请稍后再试。)
+(We were unable to authorize you in GitHub. Sorry for inconvenience, please try again later.我们无法在GitHub中授权您。很抱歉给您带来不便，请稍后再试)
 
 
 
@@ -2901,7 +2901,7 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 ---
 
-![image-20220618213500715](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220618213500715.png)
+![image-20220721123937156](http://fgcy-pic.zhamao.ml/image-20220721123937156.png)
 
 ---
 
@@ -2911,7 +2911,7 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 ---
 
-![image-20220618213550267](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220618213550267.png)
+![image-20220721124014498](http://fgcy-pic.zhamao.ml/image-20220721124014498.png)
 
 ---
 
@@ -2923,7 +2923,7 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 ---
 
-![image-20220618213649750](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220618213649750.png)
+![image-20220721124043134](http://fgcy-pic.zhamao.ml/image-20220721124043134.png)
 
 ---
 
@@ -2933,9 +2933,35 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 ---
 
-![image-20220618213748289](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220618213748289.png)
+![image-20220721124121791](http://fgcy-pic.zhamao.ml/image-20220721124121791.png)
 
 ---
+
+
+
+
+
+----
+
+![image-20220721124153016](http://fgcy-pic.zhamao.ml/image-20220721124153016.png)
+
+---
+
+
+
+
+
+
+
+---
+
+![image-20220721124218534](http://fgcy-pic.zhamao.ml/image-20220721124218534.png)
+
+---
+
+
+
+
 
 
 
@@ -2969,11 +2995,7 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 - 添加 remote
 
----
 
-![image-20220619140808879](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220619140808879.png)
-
----
 
 
 
@@ -3034,11 +3056,7 @@ push 的操作是会被拒绝的。也就是说，要想 push 成功，一定要
 
 
 
----
 
-![image-20220619141929709](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220619141929709.png)
-
----
 
 
 
@@ -3221,11 +3239,7 @@ IDEA集成Gitee后push项目到Gitee卡在Loading Account Information For gitee.
 
 1、在码云中新建一个仓库 【获取远程库地址】
 
-----
 
-![image-20220619163734469](D:/learn/%E5%B0%9A%E7%A1%85%E8%B0%B7/Git&github%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/git%E6%80%BB%E7%BB%93.assets/image-20220619163734469.png)
-
----
 
 
 
