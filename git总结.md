@@ -243,7 +243,7 @@ Git、Mercurial、Bazaar、Darcs
 
 ---
 
-![image-20220617235415430](http://fgcy-pic.zhamao.ml/image-20220617235415430.png)
+![image-20220816210729015](http://fgcy-pic.zhamao.ml/image-20220816210729015.png)
 
 ---
 
@@ -1020,7 +1020,7 @@ $ git log --oneline
 
 ---
 
-![image-20220618112353918](http://fgcy-pic.zhamao.ml/image-20220618112353918.png)
+![image-20220816210755663](http://fgcy-pic.zhamao.ml/image-20220816210755663.png)
 
 ---
 
@@ -2873,12 +2873,6 @@ VCS【version controller setting】
 
 
 
-
-
-
-
-
-
 ---
 
 ![image-20220619135248264](http://fgcy-pic.zhamao.ml/image-20220619135248264.png)
@@ -3053,10 +3047,6 @@ push 的操作是会被拒绝的。也就是说，要想 push 成功，一定要
 ![image-20220619141803723](http://fgcy-pic.zhamao.ml/image-20220619141803723.png)
 
 ---
-
-
-
-
 
 
 
