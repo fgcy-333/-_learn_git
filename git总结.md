@@ -64,7 +64,7 @@ CVS、SVN、VSS……
 
 ---
 
-![image-20220617231352365](http://fgcy-pic.zhamao.ml/image-20220617231352365.png)
+![image-20220617231352365](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220617231352365.png)
 
 ---
 
@@ -82,7 +82,7 @@ Git、Mercurial、Bazaar、Darcs
 
 ---
 
-**![image-20220617231717843](http://fgcy-pic.zhamao.ml/image-20220617231717843.png)**
+**![image-20220617231717843](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220617231717843.png)**
 
 ---
 
@@ -98,7 +98,7 @@ Git、Mercurial、Bazaar、Darcs
 
 ---
 
-![image-20220617232412626](http://fgcy-pic.zhamao.ml/image-20220617232412626.png)
+![image-20220617232412626](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220617232412626.png)
 
 ---
 
@@ -112,7 +112,7 @@ Git、Mercurial、Bazaar、Darcs
 
 ---
 
-![image-20220617232535553](http://fgcy-pic.zhamao.ml/image-20220617232535553.png)
+![image-20220617232535553](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220617232535553.png)
 
 ---
 
@@ -135,7 +135,7 @@ Git、Mercurial、Bazaar、Darcs
 
 ---
 
-![image-20220617233104595](http://fgcy-pic.zhamao.ml/image-20220617233104595.png)
+![image-20220617233104595](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220617233104595.png)
 
 ---
 
@@ -145,7 +145,7 @@ Git、Mercurial、Bazaar、Darcs
 
 ---
 
-![image-20220617233152618](http://fgcy-pic.zhamao.ml/image-20220617233152618.png)
+![image-20220617233152618](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220617233152618.png)
 
 ---
 
@@ -153,7 +153,7 @@ Git、Mercurial、Bazaar、Darcs
 
 ---
 
-![image-20220617233219227](http://fgcy-pic.zhamao.ml/image-20220617233219227.png)
+![image-20220617233219227](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220617233219227.png)
 
 ---
 
@@ -161,33 +161,7 @@ Git、Mercurial、Bazaar、Darcs
 
 ---
 
-![image-20220617234028587](http://fgcy-pic.zhamao.ml/image-20220617234028587.png)
-
----
-
-
-
-
-
----
-
-![image-20220617234221154](http://fgcy-pic.zhamao.ml/image-20220617234221154.png)
-
----
-
-
-
----
-
-![image-20220617234240042](http://fgcy-pic.zhamao.ml/image-20220617234240042.png)
-
----
-
-
-
----
-
-![image-20220617234253546](http://fgcy-pic.zhamao.ml/image-20220617234253546.png)
+![image-20220617234028587](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220617234028587.png)
 
 ---
 
@@ -197,7 +171,33 @@ Git、Mercurial、Bazaar、Darcs
 
 ---
 
-![image-20220617234419961](http://fgcy-pic.zhamao.ml/image-20220617234419961.png)
+![image-20220617234221154](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220617234221154.png)
+
+---
+
+
+
+---
+
+![image-20220816215229504](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220816215229504.png)
+
+---
+
+
+
+---
+
+![image-20220617234253546](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220617234253546.png)
+
+---
+
+
+
+
+
+---
+
+![image-20220617234419961](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220617234419961.png)
 
 ---
 
@@ -209,7 +209,7 @@ Git、Mercurial、Bazaar、Darcs
 
 ---
 
-![image-20220617234640290](http://fgcy-pic.zhamao.ml/image-20220617234640290.png)
+![image-20220617234640290](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220617234640290.png)
 
 ---
 
@@ -243,7 +243,7 @@ Git、Mercurial、Bazaar、Darcs
 
 ---
 
-![image-20220816210729015](http://fgcy-pic.zhamao.ml/image-20220816210729015.png)
+![image-20220816210729015](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220816210729015.png)
 
 ---
 
@@ -255,7 +255,7 @@ Git、Mercurial、Bazaar、Darcs
 
 ---
 
-![image-20220617235449698](http://fgcy-pic.zhamao.ml/image-20220617235449698.png)
+![image-20220617235449698](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220617235449698.png)
 
 ---
 
@@ -893,7 +893,7 @@ HEAD@{移动到该版本需要多少步}
 
 ---
 
-![image-20220618105844245](http://fgcy-pic.zhamao.ml/image-20220618105844245.png)
+![image-20220618105844245](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618105844245.png)
 
 ---
 
@@ -1006,7 +1006,7 @@ $ git log --oneline
 
 ---
 
-![image-20220618112214470](http://fgcy-pic.zhamao.ml/image-20220618112214470.png)
+![image-20220618112214470](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618112214470.png)
 
 ---
 
@@ -1020,7 +1020,7 @@ $ git log --oneline
 
 ---
 
-![image-20220816210755663](http://fgcy-pic.zhamao.ml/image-20220816210755663.png)
+![image-20220816210755663](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220816210755663.png)
 
 ---
 
@@ -1040,7 +1040,7 @@ $ git log --oneline
 
 ---
 
-![image-20220618112430982](http://fgcy-pic.zhamao.ml/image-20220618112430982.png)
+![image-20220618112430982](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618112430982.png)
 
 ---
 
@@ -1174,7 +1174,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 ---
 
-![image-20220618113855583](http://fgcy-pic.zhamao.ml/image-20220618113855583.png)
+![image-20220618113855583](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618113855583.png)
 
 ---
 
@@ -1213,7 +1213,7 @@ HEAD is now at 1beefc9 new aaa.text
 
 ---
 
-![image-20220618113944206](http://fgcy-pic.zhamao.ml/image-20220618113944206.png)
+![image-20220618113944206](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618113944206.png)
 
 ---
 
@@ -1364,7 +1364,7 @@ index 0000000..6ba728d
 
 ---
 
-![image-20220618132917353](http://fgcy-pic.zhamao.ml/image-20220618132917353.png)
+![image-20220618132917353](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618132917353.png)
 
 ---
 
@@ -1533,7 +1533,7 @@ b edit by hot_fix
 
 ---
 
-![image-20220618141934643](http://fgcy-pic.zhamao.ml/image-20220618141934643.png)
+![image-20220618141934643](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618141934643.png)
 
 ---
 
@@ -1659,7 +1659,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 ---
 
-![image-20220618142954163](http://fgcy-pic.zhamao.ml/image-20220618142954163.png)
+![image-20220618142954163](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618142954163.png)
 
 ---
 
@@ -1680,7 +1680,7 @@ Git 底层采用的是 SHA-1 算法
 
 ---
 
-![image-20220618143528516](http://fgcy-pic.zhamao.ml/image-20220618143528516.png)
+![image-20220618143528516](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618143528516.png)
 
 ---
 
@@ -1701,7 +1701,7 @@ Git 就是靠这种机制来从根本上保证数据完整性的
 
 ---
 
-![image-20220618143913452](http://fgcy-pic.zhamao.ml/image-20220618143913452-16555350918013.png)
+![image-20220618143913452](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618143913452-16555350918013.png)
 
 ---
 
@@ -1720,7 +1720,7 @@ Git 就是靠这种机制来从根本上保证数据完整性的
 
 ---
 
-![image-20220618145402107](http://fgcy-pic.zhamao.ml/image-20220618145402107.png)
+![image-20220618145402107](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618145402107.png)
 
 ---
 
@@ -1735,7 +1735,7 @@ Git 就是靠这种机制来从根本上保证数据完整性的
 
 ---
 
-![image-20220618144434429](http://fgcy-pic.zhamao.ml/image-20220618144434429.png)
+![image-20220618144434429](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618144434429.png)
 
 ---
 
@@ -1751,7 +1751,7 @@ Git 就是靠这种机制来从根本上保证数据完整性的
 
 ---
 
-![image-20220618145935765](http://fgcy-pic.zhamao.ml/image-20220618145935765.png)
+![image-20220618145935765](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618145935765.png)
 
 ---
 
@@ -1781,7 +1781,7 @@ SVN会将所有的目录和文件都复制一份，给到这个分支
 
 ---
 
-![image-20220618150604655](http://fgcy-pic.zhamao.ml/image-20220618150604655.png)
+![image-20220618150604655](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618150604655.png)
 
 ---
 
@@ -1799,7 +1799,7 @@ HEAD指针指向新的分支指针；
 
 ---
 
-![image-20220618150802391](http://fgcy-pic.zhamao.ml/image-20220618150802391.png)
+![image-20220618150802391](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618150802391.png)
 
 ---
 
@@ -1815,7 +1815,7 @@ HEAD指针【当前版本】，处于testing分支上；当前的所有操作都
 
 ---
 
-![image-20220618151044134](http://fgcy-pic.zhamao.ml/image-20220618151044134.png)
+![image-20220618151044134](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618151044134.png)
 
 ---
 
@@ -1829,7 +1829,7 @@ HEAD指针【当前版本】，处于testing分支上；当前的所有操作都
 
 ---
 
-![image-20220618151623231](http://fgcy-pic.zhamao.ml/image-20220618151623231.png)
+![image-20220618151623231](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618151623231.png)
 
 ---
 
@@ -1843,7 +1843,7 @@ master和testing分别在f30ab提交对象的基础上，提交了一次；
 
 ---
 
-![image-20220618152048936](http://fgcy-pic.zhamao.ml/image-20220618152048936.png)
+![image-20220618152048936](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618152048936.png)
 
 ---
 
@@ -1861,7 +1861,7 @@ master和testing分别在f30ab提交对象的基础上，提交了一次；
 
 ---
 
-![image-20220618183045901](http://fgcy-pic.zhamao.ml/image-20220618183045901.png)
+![image-20220618183045901](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618183045901.png)
 
 ---
 
@@ -1871,7 +1871,7 @@ master和testing分别在f30ab提交对象的基础上，提交了一次；
 
 ---
 
-![image-20220618183136212](http://fgcy-pic.zhamao.ml/image-20220618183136212.png)
+![image-20220618183136212](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618183136212.png)
 
 ---
 
@@ -1920,7 +1920,7 @@ $ git remote -v
 
 ---
 
-![image-20220618185027793](http://fgcy-pic.zhamao.ml/image-20220618185027793.png)
+![image-20220618185027793](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618185027793.png)
 
 ---
 
@@ -1982,7 +1982,7 @@ To https://github.com/fgcy-333/-_learn_git.git
 
 ---
 
-![image-20220618183957528](http://fgcy-pic.zhamao.ml/image-20220618183957528.png)
+![image-20220618183957528](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618183957528.png)
 
 ---
 
@@ -1998,7 +1998,7 @@ To https://github.com/fgcy-333/-_learn_git.git
 
 ---
 
-![image-20220618191003778](http://fgcy-pic.zhamao.ml/image-20220618191003778.png)
+![image-20220618191003778](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618191003778.png)
 
 ---
 
@@ -2006,7 +2006,7 @@ To https://github.com/fgcy-333/-_learn_git.git
 
 ---
 
-![image-20220618191026444](http://fgcy-pic.zhamao.ml/image-20220618191026444.png)
+![image-20220618191026444](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618191026444.png)
 
 ---
 
@@ -2022,7 +2022,7 @@ To https://github.com/fgcy-333/-_learn_git.git
 
 ---
 
-![image-20220618184407742](http://fgcy-pic.zhamao.ml/image-20220618184407742.png)
+![image-20220618184407742](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618184407742.png)
 
 ---
 
@@ -2077,7 +2077,7 @@ drwxr-xr-x 1 fgcy 197121         0 Jan 17 10:35 课件/
 
 ----
 
-![image-20220618190610280](http://fgcy-pic.zhamao.ml/image-20220618190610280.png)
+![image-20220618190610280](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618190610280.png)
 
 ---
 
@@ -2085,7 +2085,7 @@ drwxr-xr-x 1 fgcy 197121         0 Jan 17 10:35 课件/
 
 ---
 
-![image-20220618190714279](http://fgcy-pic.zhamao.ml/image-20220618190714279.png)
+![image-20220618190714279](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618190714279.png)
 
 ---
 
@@ -2124,7 +2124,7 @@ From https://github.com/fgcy-333/note_learn_git
 
 ---
 
-![image-20220618191821586](http://fgcy-pic.zhamao.ml/image-20220618191821586.png)
+![image-20220618191821586](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618191821586.png)
 
 ---
 
@@ -2215,7 +2215,7 @@ fork
 
 ---
 
-![image-20220618194217405](http://fgcy-pic.zhamao.ml/image-20220618194217405.png)
+![image-20220618194217405](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618194217405.png)
 
 ---
 
@@ -2225,7 +2225,7 @@ fork
 
 ---
 
-![image-20220618194251531](http://fgcy-pic.zhamao.ml/image-20220618194251531.png)
+![image-20220618194251531](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618194251531.png)
 
 ---
 
@@ -2237,7 +2237,7 @@ fork
 
 ---
 
-![image-20220618194553116](http://fgcy-pic.zhamao.ml/image-20220618194553116.png)
+![image-20220618194553116](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618194553116.png)
 
 ---
 
@@ -2245,7 +2245,7 @@ fork
 
 ---
 
-![image-20220618194619302](http://fgcy-pic.zhamao.ml/image-20220618194619302.png)
+![image-20220618194619302](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618194619302.png)
 
 ---
 
@@ -2257,7 +2257,7 @@ fork
 
 ---
 
-![image-20220618194832140](http://fgcy-pic.zhamao.ml/image-20220618194832140.png)
+![image-20220618194832140](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618194832140.png)
 
 ---
 
@@ -2265,7 +2265,7 @@ fork
 
 ---
 
-![image-20220618194854012](http://fgcy-pic.zhamao.ml/image-20220618194854012.png)
+![image-20220618194854012](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618194854012.png)
 
 ---
 
@@ -2273,7 +2273,7 @@ fork
 
 ---
 
-![image-20220618194926693](http://fgcy-pic.zhamao.ml/image-20220618194926693.png)
+![image-20220618194926693](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618194926693.png)
 
 ---
 
@@ -2283,7 +2283,7 @@ fork
 
 ---
 
-![image-20220618194956371](http://fgcy-pic.zhamao.ml/image-20220618194956371.png)
+![image-20220618194956371](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618194956371.png)
 
 ---
 
@@ -2299,7 +2299,7 @@ fork
 
 ---
 
-![image-20220618195120221](http://fgcy-pic.zhamao.ml/image-20220618195120221.png)
+![image-20220618195120221](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618195120221.png)
 
 ---
 
@@ -2407,7 +2407,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADbBmKS71IyBDR14ybEFMNQfK48yr9MAFKf1dnA60TF39U2b2WDvsQ
 
 ----
 
-![image-20220618200430035](http://fgcy-pic.zhamao.ml/image-20220618200430035.png)
+![image-20220618200430035](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618200430035.png)
 
 ----
 
@@ -2417,7 +2417,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADbBmKS71IyBDR14ybEFMNQfK48yr9MAFKf1dnA60TF39U2b2WDvsQ
 
 ---
 
-![image-20220618200519617](http://fgcy-pic.zhamao.ml/image-20220618200519617.png)
+![image-20220618200519617](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618200519617.png)
 
 ---
 
@@ -2431,7 +2431,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADbBmKS71IyBDR14ybEFMNQfK48yr9MAFKf1dnA60TF39U2b2WDvsQ
 
 ---
 
-![image-20220618201141298](http://fgcy-pic.zhamao.ml/image-20220618201141298.png)
+![image-20220618201141298](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618201141298.png)
 
 ---
 
@@ -2475,7 +2475,7 @@ and the repository exists.
 
 ---
 
-![image-20220618202537557](http://fgcy-pic.zhamao.ml/image-20220618202537557.png)
+![image-20220618202537557](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220618202537557.png)
 
 ---
 
@@ -2502,7 +2502,7 @@ IDEA 特定文件
 
 ---
 
-![image-20220619103341111](http://fgcy-pic.zhamao.ml/image-20220619103341111.png)
+![image-20220619103341111](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619103341111.png)
 
 ---
 
@@ -2533,7 +2533,7 @@ IDEA 特定文件
 
 ---
 
-![image-20220619104230553](http://fgcy-pic.zhamao.ml/image-20220619104230553.png)
+![image-20220619104230553](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619104230553.png)
 
 ---
 
@@ -2579,7 +2579,7 @@ target
 
 ---
 
-![image-20220619104436822](http://fgcy-pic.zhamao.ml/image-20220619104436822.png)
+![image-20220619104436822](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619104436822.png)
 
 ---
 
@@ -2607,7 +2607,7 @@ target
 
 ---
 
-![image-20220619105123296](http://fgcy-pic.zhamao.ml/image-20220619105123296.png)
+![image-20220619105123296](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619105123296.png)
 
 ---
 
@@ -2619,7 +2619,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619105642818](http://fgcy-pic.zhamao.ml/image-20220619105642818.png)
+![image-20220619105642818](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619105642818.png)
 
 ---
 
@@ -2627,7 +2627,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619105821983](http://fgcy-pic.zhamao.ml/image-20220619105821983.png)
+![image-20220619105821983](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619105821983.png)
 
 ---
 
@@ -2637,7 +2637,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619105935434](http://fgcy-pic.zhamao.ml/image-20220619105935434.png)
+![image-20220619105935434](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619105935434.png)
 
 ---
 
@@ -2647,7 +2647,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619110059831](http://fgcy-pic.zhamao.ml/image-20220619110059831.png)
+![image-20220619110059831](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619110059831.png)
 
 ---
 
@@ -2667,7 +2667,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619110340947](http://fgcy-pic.zhamao.ml/image-20220619110340947.png)
+![image-20220619110340947](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619110340947.png)
 
 ---
 
@@ -2675,7 +2675,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619110540783](http://fgcy-pic.zhamao.ml/image-20220619110540783.png)
+![image-20220619110540783](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619110540783.png)
 
 ---
 
@@ -2685,7 +2685,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619110433027](http://fgcy-pic.zhamao.ml/image-20220619110433027.png)
+![image-20220619110433027](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619110433027.png)
 
 ---
 
@@ -2701,7 +2701,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619110644105](http://fgcy-pic.zhamao.ml/image-20220619110644105.png)
+![image-20220619110644105](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619110644105.png)
 
 ---
 
@@ -2709,7 +2709,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619110751030](http://fgcy-pic.zhamao.ml/image-20220619110751030.png)
+![image-20220619110751030](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619110751030.png)
 
 ---
 
@@ -2721,7 +2721,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619110913769](http://fgcy-pic.zhamao.ml/image-20220619110913769.png)
+![image-20220619110913769](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619110913769.png)
 
 ---
 
@@ -2733,7 +2733,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619111256602](http://fgcy-pic.zhamao.ml/image-20220619111256602.png)
+![image-20220619111256602](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619111256602.png)
 
 ---
 
@@ -2767,7 +2767,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619131522652](http://fgcy-pic.zhamao.ml/image-20220619131522652.png)
+![image-20220619131522652](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619131522652.png)
 
 ---
 
@@ -2775,7 +2775,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619131624427](http://fgcy-pic.zhamao.ml/image-20220619131624427.png)
+![image-20220619131624427](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619131624427.png)
 
 ---
 
@@ -2789,7 +2789,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619132157613](http://fgcy-pic.zhamao.ml/image-20220619132157613.png)
+![image-20220619132157613](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619132157613.png)
 
 ---
 
@@ -2801,7 +2801,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619132251885](http://fgcy-pic.zhamao.ml/image-20220619132251885.png)
+![image-20220619132251885](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619132251885.png)
 
 ---
 
@@ -2813,7 +2813,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619132441716](http://fgcy-pic.zhamao.ml/image-20220619132441716.png)
+![image-20220619132441716](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619132441716.png)
 
 ---
 
@@ -2829,7 +2829,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619133104743](http://fgcy-pic.zhamao.ml/image-20220619133104743.png)
+![image-20220619133104743](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619133104743.png)
 
 ---
 
@@ -2839,7 +2839,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619133252485](http://fgcy-pic.zhamao.ml/image-20220619133252485.png)
+![image-20220619133252485](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619133252485.png)
 
 ---
 
@@ -2851,7 +2851,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619133649038](http://fgcy-pic.zhamao.ml/image-20220619133649038.png)
+![image-20220619133649038](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619133649038.png)
 
 ---
 
@@ -2861,7 +2861,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619134617699](http://fgcy-pic.zhamao.ml/image-20220619134617699.png)
+![image-20220619134617699](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619134617699.png)
 
 ---
 
@@ -2875,7 +2875,7 @@ VCS【version controller setting】
 
 ---
 
-![image-20220619135248264](http://fgcy-pic.zhamao.ml/image-20220619135248264.png)
+![image-20220619135248264](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619135248264.png)
 
 ---
 
@@ -2895,7 +2895,7 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 ---
 
-![image-20220721123937156](http://fgcy-pic.zhamao.ml/image-20220721123937156.png)
+![image-20220721123937156](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220721123937156.png)
 
 ---
 
@@ -2905,7 +2905,7 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 ---
 
-![image-20220721124014498](http://fgcy-pic.zhamao.ml/image-20220721124014498.png)
+![image-20220721124014498](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220721124014498.png)
 
 ---
 
@@ -2917,7 +2917,7 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 ---
 
-![image-20220721124043134](http://fgcy-pic.zhamao.ml/image-20220721124043134.png)
+![image-20220721124043134](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220721124043134.png)
 
 ---
 
@@ -2927,7 +2927,7 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 ---
 
-![image-20220721124121791](http://fgcy-pic.zhamao.ml/image-20220721124121791.png)
+![image-20220721124121791](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220721124121791.png)
 
 ---
 
@@ -2937,7 +2937,7 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 ----
 
-![image-20220721124153016](http://fgcy-pic.zhamao.ml/image-20220721124153016.png)
+![image-20220721124153016](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220721124153016.png)
 
 ---
 
@@ -2949,7 +2949,7 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 ---
 
-![image-20220721124218534](http://fgcy-pic.zhamao.ml/image-20220721124218534.png)
+![image-20220721124218534](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220721124218534.png)
 
 ---
 
@@ -2963,7 +2963,7 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 ---
 
-![image-20220619135820436](http://fgcy-pic.zhamao.ml/image-20220619135820436.png)
+![image-20220619135820436](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619135820436.png)
 
 ---
 
@@ -2973,7 +2973,7 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 ---
 
-![image-20220619140008604](http://fgcy-pic.zhamao.ml/image-20220619140008604.png)
+![image-20220619140008604](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619140008604.png)
 
 ---
 
@@ -2991,23 +2991,9 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 
 
-
-
 ---
 
-![image-20220619141222874](http://fgcy-pic.zhamao.ml/image-20220619141222874.png)
-
----
-
-
-
-
-
-
-
----
-
-![image-20220619141152318](http://fgcy-pic.zhamao.ml/image-20220619141152318.png)
+![image-20220619141222874](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619141222874.png)
 
 ---
 
@@ -3015,9 +3001,21 @@ We were unable to authorize you in GitHub. Sorry for inconvenience, please try a
 
 
 
+
+
 ---
 
-![image-20220619141422693](http://fgcy-pic.zhamao.ml/image-20220619141422693.png)
+![image-20220619141152318](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619141152318.png)
+
+---
+
+
+
+
+
+---
+
+![image-20220619141422693](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619141422693.png)
 
 ---
 
@@ -3044,7 +3042,7 @@ push 的操作是会被拒绝的。也就是说，要想 push 成功，一定要
 
 ---
 
-![image-20220619141803723](http://fgcy-pic.zhamao.ml/image-20220619141803723.png)
+![image-20220619141803723](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619141803723.png)
 
 ---
 
@@ -3058,7 +3056,7 @@ push 的操作是会被拒绝的。也就是说，要想 push 成功，一定要
 
 ---
 
-![image-20220619152924984](http://fgcy-pic.zhamao.ml/image-20220619152924984.png)
+![image-20220619152924984](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619152924984.png)
 
 ---
 
@@ -3068,7 +3066,7 @@ push 的操作是会被拒绝的。也就是说，要想 push 成功，一定要
 
 ---
 
-![image-20220619153256127](http://fgcy-pic.zhamao.ml/image-20220619153256127.png)
+![image-20220619153256127](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619153256127.png)
 
 ---
 
@@ -3088,7 +3086,7 @@ push 的操作是会被拒绝的。也就是说，要想 push 成功，一定要
 
 ----
 
-![image-20220619154027885](http://fgcy-pic.zhamao.ml/image-20220619154027885.png)
+![image-20220619154027885](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619154027885.png)
 
 ---
 
@@ -3098,7 +3096,7 @@ push 的操作是会被拒绝的。也就是说，要想 push 成功，一定要
 
 ---
 
-![image-20220619154139179](http://fgcy-pic.zhamao.ml/image-20220619154139179.png)
+![image-20220619154139179](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619154139179.png)
 
 ---
 
@@ -3154,7 +3152,7 @@ drwxr-xr-x 1 fgcy 197121     0 Jun 19 15:44 src/
 
 ---
 
-![image-20220619161928404](http://fgcy-pic.zhamao.ml/image-20220619161928404.png)
+![image-20220619161928404](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619161928404.png)
 
 ---
 
@@ -3166,7 +3164,7 @@ drwxr-xr-x 1 fgcy 197121     0 Jun 19 15:44 src/
 
 ---
 
-![image-20220619162112699](http://fgcy-pic.zhamao.ml/image-20220619162112699.png)
+![image-20220619162112699](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619162112699.png)
 
 ___
 
@@ -3182,7 +3180,7 @@ ___
 
 ---
 
-![image-20220619162438238](http://fgcy-pic.zhamao.ml/image-20220619162438238.png)
+![image-20220619162438238](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619162438238.png)
 
 ---
 
@@ -3198,7 +3196,7 @@ IDEA集成Gitee后push项目到Gitee卡在Loading Account Information For gitee.
 
 ---
 
-![image-20220619162531106](http://fgcy-pic.zhamao.ml/image-20220619162531106.png)
+![image-20220619162531106](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619162531106.png)
 
 ---
 
@@ -3237,7 +3235,7 @@ IDEA集成Gitee后push项目到Gitee卡在Loading Account Information For gitee.
 
 ---
 
-![image-20220619163850330](http://fgcy-pic.zhamao.ml/image-20220619163850330.png)
+![image-20220619163850330](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619163850330.png)
 
 ---
 
@@ -3249,7 +3247,7 @@ IDEA集成Gitee后push项目到Gitee卡在Loading Account Information For gitee.
 
 ---
 
-![image-20220619164103538](http://fgcy-pic.zhamao.ml/image-20220619164103538.png)
+![image-20220619164103538](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619164103538.png)
 
 ---
 
@@ -3259,7 +3257,7 @@ IDEA集成Gitee后push项目到Gitee卡在Loading Account Information For gitee.
 
 ---
 
-![image-20220619164214338](http://fgcy-pic.zhamao.ml/image-20220619164214338.png)
+![image-20220619164214338](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619164214338.png)
 
 ---
 
@@ -3271,7 +3269,7 @@ IDEA集成Gitee后push项目到Gitee卡在Loading Account Information For gitee.
 
 ---
 
-![image-20220619164530673](http://fgcy-pic.zhamao.ml/image-20220619164530673.png)
+![image-20220619164530673](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619164530673.png)
 
 ---
 
@@ -3279,7 +3277,7 @@ IDEA集成Gitee后push项目到Gitee卡在Loading Account Information For gitee.
 
 ---
 
-![image-20220619164558016](http://fgcy-pic.zhamao.ml/image-20220619164558016.png)
+![image-20220619164558016](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619164558016.png)
 
 ---
 
@@ -3295,7 +3293,7 @@ IDEA集成Gitee后push项目到Gitee卡在Loading Account Information For gitee.
 
 ---
 
-![image-20220619165432198](http://fgcy-pic.zhamao.ml/image-20220619165432198.png)
+![image-20220619165432198](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619165432198.png)
 
 ---
 
@@ -3305,7 +3303,7 @@ IDEA集成Gitee后push项目到Gitee卡在Loading Account Information For gitee.
 
 ---
 
-![image-20220619165555943](http://fgcy-pic.zhamao.ml/image-20220619165555943.png)
+![image-20220619165555943](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619165555943.png)
 
 ---
 
@@ -3317,7 +3315,7 @@ IDEA集成Gitee后push项目到Gitee卡在Loading Account Information For gitee.
 
 ---
 
-![image-20220619170041952](http://fgcy-pic.zhamao.ml/image-20220619170041952.png)
+![image-20220619170041952](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619170041952.png)
 
 ---
 
@@ -3327,7 +3325,7 @@ IDEA集成Gitee后push项目到Gitee卡在Loading Account Information For gitee.
 
 ---
 
-![image-20220619170203013](http://fgcy-pic.zhamao.ml/image-20220619170203013.png)
+![image-20220619170203013](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619170203013.png)
 
 ---
 
@@ -3337,7 +3335,7 @@ tip：
 
 ---
 
-![image-20220619170327444](http://fgcy-pic.zhamao.ml/image-20220619170327444.png)
+![image-20220619170327444](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619170327444.png)
 
 ---
 
@@ -3353,7 +3351,7 @@ tip：
 
 ---
 
-![image-20220619171505184](http://fgcy-pic.zhamao.ml/image-20220619171505184.png)
+![image-20220619171505184](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619171505184.png)
 
 ---
 
@@ -3363,7 +3361,7 @@ tip：
 
 ---
 
-![image-20220619171538115](http://fgcy-pic.zhamao.ml/image-20220619171538115.png)
+![image-20220619171538115](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619171538115.png)
 
 ---
 
@@ -3371,7 +3369,7 @@ tip：
 
 ---
 
-![image-20220619171606936](http://fgcy-pic.zhamao.ml/image-20220619171606936.png)
+![image-20220619171606936](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619171606936.png)
 
 ---
 
@@ -3379,7 +3377,7 @@ tip：
 
 ---
 
-![image-20220619171631815](http://fgcy-pic.zhamao.ml/image-20220619171631815.png)
+![image-20220619171631815](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619171631815.png)
 
 ---
 
@@ -3391,7 +3389,7 @@ tip：
 
 ---
 
-![image-20220619171750591](http://fgcy-pic.zhamao.ml/image-20220619171750591.png)
+![image-20220619171750591](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619171750591.png)
 
 ---
 
@@ -3415,7 +3413,7 @@ tip：
 
 ---
 
-![image-20220619172221231](http://fgcy-pic.zhamao.ml/image-20220619172221231.png)
+![image-20220619172221231](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619172221231.png)
 
 ---
 
@@ -3427,7 +3425,7 @@ tip：
 
 ---
 
-![image-20220619172302127](http://fgcy-pic.zhamao.ml/image-20220619172302127.png)
+![image-20220619172302127](https://cdn.jsdelivr.net/gh/fgcy-333/gitnote-images/image-20220619172302127.png)
 
 ---
 
